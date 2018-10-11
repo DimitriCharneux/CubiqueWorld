@@ -64,7 +64,7 @@ public class MoveObject : MonoBehaviour {
 		} else {
 			setActiveObject(true);
 
-			if (Input.GetMouseButtonDown(1)){
+			if (Input.GetMouseButtonDown(0)){
             	throwPrefab();
        		}
 
